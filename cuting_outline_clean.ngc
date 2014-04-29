@@ -1,0 +1,48 @@
+(Generated with: DXF2GCODE, Version: PyQt4 Beta, Date: $Date:: 2014-02-11 12:27:10#$)
+(Created from file: /home/schef/CNC/vga-rj45-pcb/cuting_outline_clean.dxf)
+(Time: Tue Apr 29 16:47:58 2014)
+G21 (Units in millimeters) G90 (Absolute programming) G64 (Default cutting) G17 (XY plane) G40 (Cancel radius comp.) G49 (Cancel length comp.)
+G0 Z  15.000 
+
+(*** LAYER: rezime ***)
+T1 M6
+S6000
+
+(* SHAPE Nr: 0 *)
+G0 X  -1.000 Y  -1.000
+M3 M8
+G0 Z   3.000 
+F150
+G1 Z  -0.800
+F400
+G1 X  -1.000 Y  31.988
+G1 X  15.264 Y  31.988
+G2 X  27.483 Y  28.345 I  -1.236 J -26.461
+G3 X  38.854 Y  24.384 I  15.756 J  26.924
+G1 X  39.714 Y  24.261
+G1 X  39.714 Y   6.269
+G3 X  27.482 Y   2.185 I   3.553 J -30.999
+G1 X  27.468 Y   2.177
+G2 X  15.252 Y  -1.000 I -12.516 J  23.056
+G1 X  15.246 Y  -1.000
+G1 X  -1.000 Y  -1.000
+F150
+G1 Z  -1.550
+F400
+G1 X  -1.000 Y  31.988
+G1 X  15.264 Y  31.988
+G2 X  27.483 Y  28.345 I  -1.236 J -26.461
+G3 X  38.854 Y  24.384 I  15.756 J  26.924
+G1 X  39.714 Y  24.261
+G1 X  39.714 Y   6.269
+G3 X  27.482 Y   2.185 I   3.553 J -30.999
+G1 X  27.468 Y   2.177
+G2 X  15.252 Y  -1.000 I -12.516 J  23.056
+G1 X  15.246 Y  -1.000
+G1 X  -1.000 Y  -1.000
+F150
+G1 Z   3.000
+G0 Z  15.000 
+M9 M5
+G0 X   0.000 Y   0.000
+M2 (Program end)
